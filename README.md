@@ -17,6 +17,6 @@ jangan lupa tambahkan hasil screenshoot web di dalam file
 
 ### Tambahkan identitas dasar di sini: 
 
-Nama  : Muhammad Nadhif Athalla
+Nama  : 
 <br>
-NIM   : 119140209
+NIM   : 
