@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolusi Pendidikan</title>
+</head>
+<body>
+    <header>
+        <h1>Evolusi Pendidikan di Indonesia</h1>
+        <img src="image/header.jpg" alt="main-logo" width="300" height="200"> 
+        <p>Perkembangan teknologi telah memengaruhi sebagian besar bidang kehidupan manusia didunia, begitu juga  
+            di Indonesia. Salah satu bidang yang mengalami perkembangan dengan adanya teknologi ini adalah 
+            pendidikan, yang ditandai dengan kemunculan beberapa perusahaan pendukung pelajar Indonesia 
+            yang berbasis teknologi. Artikel ini akan membahas 3 diantaranya, yaitu Ruangguru, Pahamify, dan Zenius.
+        </p>
+    </header>
+    <hr>
+    <main>
+        <div id="navigation">
+            <h3>Akses Informasi Lebih Lengkap : </h3>
+            <nav>
+            <ul>
+                <li><a href="https://www.ruangguru.com/">Ruang Guru</a></li>
+                <li><a href="https://pahamify.com/Aplikasi-Belajar-Online-Pahamify">Pahamify</a></li>
+                <li><a href="https://www.zenius.net/">Zenius</a>
+            </ul>
+        </nav>
+        </div>
+        <div id="content">
+            <section id="Ruangguru">
+                <h2>Ruang Guru</h2>
+                <img src="image/ruangguru1.png" alt="Logo Ruang Guru" width="300" height="200">
+                <p>PT Ruang Raya Indonesia, melakukan bisnis sebagai Ruangguru, adalah sebuah perusahaan 
+                    rintisan digital asal Indonesia yang bergerak di bidang pendidikan nonformal.
+                    Ruangguru menawarkan platform pembelajaran berbasis kurikulum sekolah melalui video 
+                    tutorial interaktif oleh guru dan animasi di aplikasi ponsel dan komputer. 
+                    Perusahaan ini didirikan oleh Belva Devara dan Iman Usman pada April 2017.</p>
+            </section>
+            
+            <section id="pahamify">
+                <h2>Pahamify</h2>
+                <img src="image/pahamify.png" alt="Logo Pahamify" width="300" height="200">
+                <p>PT Pahami Cipta Edukasi (Pahamify) adalah perusahaan teknologi pendidikan (edtech) dan 
+                    pencipta aplikasi belajar paling seru nomor 1 di Indonesia, yang berisi puluhan ribu 
+                    video pembelajaran premium beranimasi, kuis, dan ringkasan, dengan menggabungkan sains 
+                    belajar, filmmaking, gamifikasi, dan tampilan yang intuitif. Pahamify tidak hanya tentang 
+                    belajar: kami juga peduli terhadap pengembangan karakter dan jenjang karir setiap individu.</p>
+            </section>
+
+            <section id="zenius">
+                <h2>Zenius</h2>
+                <img src="image/zenius.png" alt="Logo Zenius" width="300" height="200">
+                <p>PT Zenius Education didirikan oleh Sabda PS dan Medy Suharta pada 7 Juli 2007. 
+                    Zenius Education menyediakan layanan akses pendidikan dalam format video berbahasa 
+                    Indonesia yang disajikan baik secara online melalui website (zenius.net), maupun secara 
+                    offline dengan media CD dan DVD. Beberapa media startup Indonesia menyebutkan bahwa, 
+                    Zenius hadir sebagai bentuk revolusi pendidikan di Indonesia dengan mengedepankan cara 
+                    berpikir kritis, logis, rasional, dan pengetahuan sains yang terintegrasi terhadap semua 
+                    pelajar Indonesia.</p>
+            </section>
+        </div>
+        <hr>
+        <div id="form">
+            <h3>Survey Kepuasan Siswa Indonesia Terhadap Aplikasi Pendidikan</h3>
+            <form action="detail.html" method="GET">
+                <label for="nama">Nama : </label>
+                <input type="text" name="nama" id="nama">
+                <br>
+                <label for="lahir">Tanggal Lahir : </label>
+                <input type="date" name="lahir" id="lahir">
+                <br>
+                <label for="jk">Jenis Kelamin : </label>
+                <select name="jk">
+                    <option value="l">Laki-Laki</option>
+                    <option value="p">Perempuan</option>
+                </select>
+                <br>
+                <label for="email">Email : </label>
+                <input type="email" name="email" id="email">
+                <br>
+                <label for="institusi">Asal Institusi Pendidikan : </label>
+                <input type="text" name="institusi" id="institusi">
+                <br>
+                <label for="app">Aplikasi Pilihan : </label> 
+                <select name="app">
+                    <option value="rg">Ruang Guru</option>
+                    <option value="ph">Pahamify</option>
+                    <option value="zn">Zenius</option>
+                </select>
+                <br>
+                <label for="alasan">Alasan Pemilihan : </label>
+                <input type="textarea" name="alasan" id="alasan" placeholder="Tuliskan alasan anda memilih aplikasi tersebut">
+                <br>
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <br>
+    <hr>
+    <footer>
+        <p>Nadhif Athalla - Pemrograman Web, Institut Teknologi Sumatera &#169; 2021</p>
+        <a href="#">Kembali ke Awal</a>
+    </footer>
+</body>
+</html>
