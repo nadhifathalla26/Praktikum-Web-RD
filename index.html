@@ -62,38 +62,60 @@
             </section>
         </div>
         <hr>
-        <div id="form">
+        <div id="formVisitors">
             <h3>Survey Kepuasan Siswa Indonesia Terhadap Aplikasi Pendidikan</h3>
-            <form action="" method="post">
-                <label for="nama">Nama : </label>
-                <input type="text" name="nama" id="nama">
-                <br>
-                <label for="lahir">Tanggal Lahir : </label>
-                <input type="date" name="lahir" id="lahir">
-                <br>
-                <label for="jk">Jenis Kelamin : </label>
-                <select name="jk">
-                    <option value="l">Laki-Laki</option>
-                    <option value="p">Perempuan</option>
-                </select>
-                <br>
-                <label for="email">Email : </label>
-                <input type="email" name="email" id="email">
-                <br>
-                <label for="institusi">Asal Institusi Pendidikan : </label>
-                <input type="text" name="institusi" id="institusi">
-                <br>
-                <label for="app">Aplikasi Pilihan : </label> 
-                <select name="app">
-                    <option value="rg">Ruang Guru</option>
-                    <option value="ph">Pahamify</option>
-                    <option value="zn">Zenius</option>
-                </select>
-                <br>
-                <label for="alasan">Alasan Pemilihan : </label>
-                <input type="textarea" name="alasan" id="alasan" placeholder="Tuliskan alasan anda memilih aplikasi tersebut">
-                <br>
-                <button class="btn btn-primary" type="submit">Submit</button>
+            <form action="" method="get">
+                <table>
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td><input type="text" name="nama" id="nama"></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td>:</td>
+                        <td><input type="date" name="lahir" id="lahir"></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td>
+                            <select name="jk">
+                                <option value="l">Laki-Laki</option>
+                                <option value="p">Perempuan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Institusi</td>
+                        <td>:</td>
+                        <td><input type="text" name="institusi" id="institusi"></td>
+                    </tr>
+                    <tr>
+                        <td>Aplikasi Pilihan</td>
+                        <td>:</td>
+                        <td>                
+                            <select name="app">
+                                <option value="rg">Ruang Guru</option>
+                                <option value="ph">Pahamify</option>
+                                <option value="zn">Zenius</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Alasan</td>
+                        <td>:</td>
+                        <td><textarea name="alasan" id="alasan" placeholder="Tuliskan alasan anda memilih aplikasi tersebut"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit" name="submit">Submit</button></td>
+                    </tr>
+                </table>             
             </form>
         </div>
     </main>
