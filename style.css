@@ -1,0 +1,50 @@
+*{
+    font-family: 'Times new roman', sans-serif;
+    font-size: 20px;
+}
+
+form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color:#369668;
+    color:white;
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#struk {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #21573d;
+    border-color: #21573d;
+    color:white;
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 10px 20px;
+    border: none;
+}
+
+#main_struk {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #21573d;
+    border-color: #21573d;
+    color:white;
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: none;
+}
+
+button {
+    padding: 5px; 
+    background-color: red; 
+    color: white; 
+    border-radius: 5px; 
+    cursor: pointer;
+    border: none;
+}
